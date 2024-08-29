@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+	<!-- product link -->
+    <script src="js/products.js" defer></script>
+
+    <!-- main javascript link -->
+    <script src="js/menu.js" defer></script>
+
+	<title>Menu</title>
+</head>
+<body>
+	<header class="header-area">
+		<div class="header container">
+			<img src="img/Logo.png" alt="logo" class="logo">
+			<nav class="navbar">
+				<ul class="navbar-list">
+					<li><a href="index.html" class="navbar-links">Home</a></li>
+					<li><a href="#" class="navbar-links">speciality</a></li>
+					<li><a href="menu.html" class="navbar-links">menu</a></li>
+					<li><a href="#" class="navbar-links">about us</a></li>
+					<li><a href="#" class="navbar-links">contact</a></li>
+				</ul>
+			</nav>
+
+			<div class="btns">
+				<div class="cart-btn">
+					<a href="cart.html"><ion-icon name="cart-outline" class="cart"></ion-icon></a>
+					<label class="item-count">0</label>
+				</div>
+				
+				<ion-icon name="person-circle-outline" class="user"></ion-icon>
+				<div class="mobile-navbar-btn">
+					<ion-icon name="reorder-four-outline" class="mobile-nav-icons"></ion-icon>
+					<ion-icon name="close-circle-outline" class="mobile-nav-icons"></ion-icon></i>
+				</div>
+			</div>
+			
+		</div>
+	</header>
+
+	<section class="category container">
+		<div class="category-heading">
+			<div class="veg tablinks" data-tab="tab1">
+				<h1>Veg Pizza</h1>
+			</div>
+			<div class="non-veg tablinks" data-tab="tab2">
+				<h1>Non-Veg Pizza</h1>
+			</div>
+		</div>
+
+		<div class="category-content" id="tab1">
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique hic maiores quaerat doloremque assumenda sunt nisi vero qui, placeat nulla!</p>
+		</div>
+		<div class="category-content" id="tab2">
+			<h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore possimus voluptatem alias dolorem vero eligendi temporibus ut sapiente maxime amet.</h1>
+		</div>
+	</section>
+
+	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</body>
+</html>
